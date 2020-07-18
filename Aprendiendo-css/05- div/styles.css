@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.caja {
+  display: block;
+  float: left;
+  width: 250px;
+  height: 250px;
+  background-color: aliceblue;
+  border: 15px solid red;
+  margin: 15px;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+.caja p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  line-height: 230px;
+}
+
+#cajas {
+  max-width: 1450px;
+  border: 5px solid black;
+}
+
+#fix {
+  float: none;
+  clear: both;
+}

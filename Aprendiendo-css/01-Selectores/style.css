@@ -1,0 +1,88 @@
+/*! ##### selectores  ######  */
+
+/*? selector universal */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*?  selector de etiqueta */
+h1 {
+  background-color: brown;
+  color: white;
+  padding: 20px;
+}
+a {
+  font-size: 18px;
+  color: green;
+  text-decoration: none;
+}
+footer a {
+  color: blue;
+}
+/*? selector de id */
+#descripcion {
+  border: 5px solid black;
+  padding: 15px;
+}
+#titulo {
+  background: blue;
+  border: 2px dashed brown;
+}
+/*? selector de clase */
+.parrafo {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.parrafo2 {
+  background: purple;
+  color: white;
+  padding: 10px;
+}
+.parrafo3 {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+/*? selector de atributos */
+#form form {
+  border: 5px solid blue;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#form form * {
+  display: block;
+}
+input[type="text"],
+[type="email"] {
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border: 1px solid;
+}
+input[type="submit"] {
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-style: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+/*? Selectores hijo*/
+
+#menu > li > ul > li > a {
+  color: red;
+}
+
+/*? Prioridad */
+/*! el especificar es más importante que el general*/
+#saludo h1 {
+  background: aliceblue;
+}
+/*! el !important le da más prioridad que especificar */
+h1 {
+  background: rgb(1, 68, 68) !important;
+}

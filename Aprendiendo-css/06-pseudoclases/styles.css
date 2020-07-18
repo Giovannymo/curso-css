@@ -1,0 +1,40 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li:first-child {
+  font-size: 50px;
+  list-style: none;
+  color: salmon;
+}
+ul li:last-child {
+  font-size: 35px;
+  color: forestgreen;
+}
+ul li:nth-child(2) {
+  font-size: 80px;
+  color: aqua;
+}
+
+ul li {
+  font-size: 10px;
+}
+a {
+  color: greenyellow;
+}
+a:hover {
+  color: black !important;
+}
+a:link {
+  color: rgb(21, 255, 0);
+}
+a:visited {
+  color: rgb(255, 0, 255);
+}
+a:active {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+input[type="text"]:focus {
+  border: 5px dotted green;
+  background-color: blueviolet;
+}

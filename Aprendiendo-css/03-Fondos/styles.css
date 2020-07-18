@@ -1,0 +1,26 @@
+body {
+  background-color: aliceblue;
+  background-image: url(img/patron2.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed; /* El fondo no se mueve con el scroll */
+  background-position: left right;
+}
+
+#caja {
+  border: 5px solid rgb(255, 0, 0);
+  padding: 10px;
+  background-color: rgb(62, 118, 128);
+  color: white;
+}
+h2 {
+  color: rgb(255, 255, 255);
+  padding: 50px;
+  border: 10px solid blue;
+  background-image: url(img/patron1.jpg);
+  background-repeat: repeat-x;
+}
+p {
+  color: white;
+  font-size: 40px;
+}

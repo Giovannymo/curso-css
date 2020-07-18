@@ -1,0 +1,30 @@
+body {
+  background-color: aliceblue;
+  text-align: justify;
+  text-indent: 10px;
+}
+#caja {
+  border: 5px solid black;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  line-height: 30px;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+h2 {
+  color: red;
+  background: white;
+  border: 5px solid black;
+}
+p {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: initial;
+  text-transform: uppercase;
+  /* word-spacing: 5px;
+  letter-spacing: 10px; */
+}

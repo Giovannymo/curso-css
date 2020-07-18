@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-main {
+  background-color: aliceblue;
+  width: 1200px;
+  margin: 0px auto; /*centra el container*/
+  margin-top: 20px;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(21, 212, 21);
+  text-align: center;
+  color: white;
+  line-height: 90px;
+}
+.clear-fix {
+  float: none;
+  clear: both;
+}
+#menu {
+  background-color: rgb(83, 151, 77);
+}
+#menu ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  border-right: 1px solid #ccc;
+}
+
+#menu ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#menu ul li:hover {
+  background-color: rgb(131, 182, 139);
+  cursor: pointer;
+}
+
+#menu ul li a:hover {
+  color: rgb(44, 44, 53);
+}
+
+#content {
+  width: 70%;
+  background-color: rgba(28, 124, 111, 0.192);
+  float: left;
+}
+.caja {
+  position: relative;
+  border: 5px solid blue;
+  padding: 50px;
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  box-shadow: 15px -10px 12px gray;
+  border-radius: 50px 0px;
+  z-index: 1;
+}
+#lateral {
+  background-color: rgb(49, 78, 78);
+  width: 30%;
+  float: left;
+  min-height: 400px;
+  max-height: 500px;
+  text-align: center;
+  overflow-y: scroll;
+  color: white;
+}
+#content > h1 {
+  text-align: center;
+  padding: 15px;
+  text-shadow: 20px -10px 7px red;
+}
+#footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  line-height: 48px;
+}
+.caja1 {
+  box-shadow: -10px -15px 10px gray inset;
+}
+.libre {
+  position: absolute;
+  border: 1px solid black;
+  background-color: #ccc;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  top: 550px;
+  left: 550px;
+  z-index: 0;
+  box-shadow: 10px 10px 20px blue;
+  text-shadow: 30px 5px 5px rebeccapurple;
+  overflow: hidden;
+}
+.fixed {
+  position: fixed;
+  background-color: rgb(79, 79, 211);
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 35px;
+  font-size: 15px;
+  border-radius: 0px 10px 10px 0px;
+  top: 500px;
+  cursor: pointer;
+  color: white;
+}
+.fixed a {
+  color: white;
+  text-decoration: none;
+}
+.fixed:active {
+  text-decoration: none;
+  padding: 1px;
+  display: block;
+  box-shadow: -5px -5px 15px rgb(8, 8, 73) inset;
+}
+/* .fixed:hover {
+  box-shadow: -5px -5px 15px rgb(8, 8, 73) inset;
+} */
